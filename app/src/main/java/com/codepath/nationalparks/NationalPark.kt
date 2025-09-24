@@ -10,6 +10,7 @@ import com.google.gson.annotations.SerializedName
  */
 class NationalPark {
 
+
     @JvmField
     @SerializedName("fullName")
     var name: String? = null

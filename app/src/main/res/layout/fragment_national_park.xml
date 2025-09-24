@@ -29,6 +29,7 @@
         app:layout_constraintStart_toEndOf="@+id/park_image"
         />
 
+
     <TextView
         android:id="@+id/park_description"
         android:text="Description"

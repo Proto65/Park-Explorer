@@ -54,6 +54,7 @@ class NationalParksRecyclerViewAdapter(
 
         val imageUrl = park.imageUrl
         Glide.with(holder.mView)
+
             .load(imageUrl)
             .centerInside()
             .into(holder.mParkImage)
